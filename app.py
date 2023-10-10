@@ -23,7 +23,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the dataset
-df = pd.read_csv('calories.csv')  # ownloaded the dataset
+df = pd.read_csv('calories.csv')  # Downloaded the dataset
 
 # Load the SentenceTransformer model
 model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
